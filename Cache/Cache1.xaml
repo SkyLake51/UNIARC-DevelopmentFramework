@@ -1,0 +1,17 @@
+﻿<Page x:Class="TC.Cache.Cache1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TC.Cache"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Cache1">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="33,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" x:Name="Vercache"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" x:Name="AccountCache"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" x:Name="Runcache"/>
+
+    </Grid>
+</Page>
